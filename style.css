@@ -30,6 +30,18 @@ img {
     background-image: linear-gradient(#ffeb50,#fdc006);
 }
 
+.container-apresentacao-txt a{
+    text-decoration: none;
+}
+
+.container-apresentacao-txt a:visited {
+    color: black;
+}
+
+.container-apresentacao-txt a:hover {
+    color: #444444;
+}
+
 p {
     font-size: 17px;
     letter-spacing: .5px;
