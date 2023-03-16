@@ -105,8 +105,8 @@ p {
 }
 
 .primeira-receita-txt-titulo-info-rende-img {
-    width: 30%;
-    height: 83%;
+    width: 25%;
+    height: 80%;
 }
 
 .primeira-receita-txt-titulo-info-rende-img img {
@@ -133,7 +133,7 @@ p {
 } 
 
 .primeira-receita-txt-titulo-info-tempo-img {
-    width: 35%;
+    width: 25%;
     height: 80%;
     margin-right: 10px;
 }
@@ -266,7 +266,7 @@ ul li:before {
 }
 
 .segunda-receita-txt-titulo-info-rende-img {
-    width: 30%;
+    width: 25%;
     height: 80%;
 }
 
@@ -276,7 +276,7 @@ ul li:before {
 }
 
 .segunda-receita-txt-titulo-info-tempo-img {
-    width: 30%;
+    width: 25%;
     height: 80%;
 }
 
@@ -315,38 +315,96 @@ ul li:before {
 .container-terceira-receita {
     display: flex;
     height: 620px;
-    margin-right: 15px;
 }
 
 .container-terceira-receita-img {
-    width: 50%;
+    width: 49.5%;
 }
 
 .container-terceira-receita-txt {
     width: 50%;
 }
 
-.container-terceira-receita-txt-titulo {
+.terceira-receita-titulo {
+    display: flex;
+    height: 15%;
+}
+
+.terceira-receita-titulo-nome {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 12%;
+    width: 85%;
 }
-.container-terceira-receita-txt-titulo a {
+
+.terceira-receita-titulo-nome a {
     text-decoration: none;
 }
 
-.container-terceira-receita-txt-titulo a:visited {
+.terceira-receita-titulo-nome a:visited {
     color: black;
 }
 
-.container-terceira-receita-txt-titulo a:hover {
+.terceira-receita-titulo-nome a:hover {
     color: #444444;
 }
 
+.terceira-receita-titulo-info {
+    margin-top: 10px;
+    width: 15%;
+    height: 100%;
+}
+
+.terceira-receita-titulo-info-renda {
+    display: flex;
+    height: 50%;
+}
+
+.terceira-receita-titulo-info-tempo {
+    display: flex;
+    height: 45%;
+}
+
+.terceira-receita-titulo-info-renda-img {
+    width: 30%;
+    height: 85%;
+}
+
+.terceira-receita-titulo-info-renda-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.terceira-receita-titulo-info-renda-txt p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.terceira-receita-titulo-info-tempo-img {
+    width: 30%;
+    height: 85%;
+}
+
+.terceira-receita-titulo-info-tempo-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.terceira-receita-titulo-info-tempo-txt p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 .container-terceira-receita-txt-conteudo {
     display: flex;
-    height: 88%;
+    height: 85%;
 }
 
 .container-terceira-receita-txt-conteudo-ingredientes {
@@ -376,3 +434,4 @@ ul li:before {
 .container-terceira-receita-txt-conteudo-preparo {
         width: 50%;
 }
+
