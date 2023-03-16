@@ -105,7 +105,7 @@ p {
 }
 
 .primeira-receita-txt-titulo-info-rende-img {
-    width: 33%;
+    width: 30%;
     height: 83%;
 }
 
@@ -118,11 +118,12 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 67%;
+    width: 70%;
 }
 
 .primeira-receita-txt-titulo-info-rende-txt p {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     font-size: 20px;
 }
 
@@ -132,8 +133,9 @@ p {
 } 
 
 .primeira-receita-txt-titulo-info-tempo-img {
-    width: 33%;
-    height: 83%;
+    width: 35%;
+    height: 80%;
+    margin-right: 10px;
 }
 
 .primeira-receita-txt-titulo-info-tempo-img img {
@@ -145,11 +147,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 67%;
+    width: 70%;
 }
 
 .primeira-receita-txt-titulo-info-tempo-txt p{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 .primeira-receita-txt-conteudo {
@@ -202,7 +205,7 @@ ul li:before {
 }
 
 .segunda-receita-img {
-    width: 47.5%;
+    width: 50.5%;
 }
 
 .segunda-receita-img img {
@@ -212,26 +215,82 @@ ul li:before {
 
 .segunda-receita-txt {
     background-image: linear-gradient(to top, #ffeb50,#fdc006);
-    width: 52.5%;
+    width: 49.5%;
 }
 
 .segunda-receita-txt-titulo {
     display: flex;
-    justify-content: center;
     height: 15%;
-    align-items: center;
 }
 
-.segunda-receita-txt-titulo a {
+.segunda-receita-txt-titulo-nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+
+.segunda-receita-txt-titulo-nome a {
     text-decoration: none;
 }
 
-.segunda-receita-txt-titulo a:visited {
-    color: black;
+.segunda-receita-txt-titulo-nome a:visited {
+    color: #000000;
 }
 
-.segunda-receita-txt-titulo a:hover {
+.segunda-receita-txt-titulo-nome a:hover {
     color: #444444;
+}
+
+.segunda-receita-txt-titulo-info {
+    margin-top: 10px;
+    width: 15%;
+}
+
+.segunda-receita-txt-titulo-info-rende {
+    display: flex;
+    height: 50%;
+}
+
+.segunda-receita-txt-titulo-info-rende-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.segunda-receita-txt-titulo-info-rende-txt p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.segunda-receita-txt-titulo-info-rende-img {
+    width: 30%;
+    height: 80%;
+}
+
+.segunda-receita-txt-titulo-info-tempo {
+    display: flex;
+    height: 45%;
+}
+
+.segunda-receita-txt-titulo-info-tempo-img {
+    width: 30%;
+    height: 80%;
+}
+
+.segunda-receita-txt-titulo-info-tempo-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.segunda-receita-txt-titulo-info-tempo-txt p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .segunda-receita-txt-conteudo {
@@ -260,11 +319,11 @@ ul li:before {
 }
 
 .container-terceira-receita-img {
-    width: 53%;
+    width: 50%;
 }
 
 .container-terceira-receita-txt {
-    width: 47%;
+    width: 50%;
 }
 
 .container-terceira-receita-txt-titulo {
