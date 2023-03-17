@@ -193,6 +193,14 @@ ul li:before {
     margin-left: -20px;
 }
 
+a:active {
+    color: #000000;
+}
+
+a:link {
+    color: #000000;
+}
+
 .segunda-receita {
     display: flex;
     flex-direction: row-reverse;
