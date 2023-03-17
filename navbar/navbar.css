@@ -20,7 +20,7 @@
 
 .logo {
     height: 100%;
-    width: 10%;
+    width: 7%;
 }
 
 .logo img {
@@ -30,11 +30,11 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Golos Text', sans-serif;
-    background-image: linear-gradient(to bottom, #ffeb50, #fdc006);
-    height: 15vh;
+    background-color: #FDD228;
+    height: 12vh;
 }
 
 .nav-list {
@@ -56,6 +56,7 @@ nav {
     height: 2px;
     background: black;
     margin: 8px;
+    transition: 0.3s;
 }
 
 @media (max-width: 999px) {
@@ -67,13 +68,14 @@ nav {
         position: absolute;
         top: 15vh;
         right: 0;
-        width: 52.5vw;
-        height: 86vh;
+        width: 55vw;
+        height: 95vh;
         background: #fdc006;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        transform: translateX(100%)
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
     }
     .nav-list p {
         margin-left: 0;
@@ -86,4 +88,27 @@ nav {
 
 .nav-list.active {
     transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px)
 }

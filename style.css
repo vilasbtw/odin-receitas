@@ -123,8 +123,8 @@ p {
 
 .primeira-receita-txt-titulo-info-rende-txt p {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 .primeira-receita-txt-titulo-info-tempo {
@@ -152,7 +152,8 @@ p {
 
 .primeira-receita-txt-titulo-info-tempo-txt p{
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 .primeira-receita-txt-conteudo {
@@ -260,8 +261,8 @@ ul li:before {
 }
 
 .segunda-receita-txt-titulo-info-rende-txt p {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 300;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -288,8 +289,8 @@ ul li:before {
 }
 
 .segunda-receita-txt-titulo-info-tempo-txt p {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 300;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -378,8 +379,8 @@ ul li:before {
 }
 
 .terceira-receita-titulo-info-renda-txt p {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 300;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -396,8 +397,8 @@ ul li:before {
 }
 
 .terceira-receita-titulo-info-tempo-txt p {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 300;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -433,4 +434,37 @@ ul li:before {
 
 .container-terceira-receita-txt-conteudo-preparo {
         width: 50%;
+}
+
+.rodape {
+    height: 12vh;
+    background-color: #fdc006;
+}
+
+.rodape-txt {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.rodape-txt p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rodape-links {
+    display: flex;
+    width: 97.5%;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.rodape-links a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.rodape-links a:visited {
+    color: #444444;
 }
