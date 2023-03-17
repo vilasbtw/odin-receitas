@@ -5,3 +5,6 @@ Neste projeto, desenvolverei competências de HTML5 e CSS3. Aprendendo a criar
 um site básico de receitas.
 
 https://www.theodinproject.com/lessons/foundations-recipes
+
+Acesse o site pelo GitHub pages!
+https://vilasbtw.github.io/odin-receitas/
